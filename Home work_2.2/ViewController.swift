@@ -49,7 +49,7 @@ class ViewController: UIViewController {
   }
   
   func roundPosition(for slider: UISlider) -> Float {
-    round(slider.value * 100) / 100
+    round(slider.value * 10) / 10
   }
 }
 
