@@ -26,6 +26,5 @@ class ShowColorViewController: UIViewController, ChangedBackgroundColorDelegate 
 		navigationController?.isNavigationBarHidden = false
 		view.backgroundColor = Color.setNewColor(color: color)
 		self.color = color
-		print(color)
 	}
 }

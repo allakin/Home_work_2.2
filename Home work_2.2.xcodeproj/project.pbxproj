@@ -60,17 +60,57 @@
 		737D4195253C7D17001823D7 /* Home work_2.2 */ = {
 			isa = PBXGroup;
 			children = (
-				737D4196253C7D17001823D7 /* AppDelegate.swift */,
-				737D4198253C7D17001823D7 /* SceneDelegate.swift */,
-				737D419A253C7D17001823D7 /* EditBackgroundColorViewController.swift */,
-				737D419C253C7D17001823D7 /* Main.storyboard */,
-				737D419F253C7D18001823D7 /* Assets.xcassets */,
-				737D41A1253C7D18001823D7 /* LaunchScreen.storyboard */,
-				737D41A4253C7D18001823D7 /* Info.plist */,
-				73D5B2F5254EBA4F00DBC78F /* ShowColorViewController.swift */,
-				73D5B2F8254EBA7400DBC78F /* Color.swift */,
+				73D5B302254F0AA600DBC78F /* Models */,
+				73D5B300254F0A9000DBC78F /* View Controllers */,
+				73D5B2FD254F0A6200DBC78F /* Storyboards */,
+				73D5B2FE254F0A7700DBC78F /* Support Files */,
+				73D5B305254F0AD000DBC78F /* Resources */,
 			);
 			path = "Home work_2.2";
+			sourceTree = "<group>";
+		};
+		73D5B2FD254F0A6200DBC78F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				737D419C253C7D17001823D7 /* Main.storyboard */,
+				737D41A1253C7D18001823D7 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		73D5B2FE254F0A7700DBC78F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				737D4196253C7D17001823D7 /* AppDelegate.swift */,
+				737D4198253C7D17001823D7 /* SceneDelegate.swift */,
+				737D41A4253C7D18001823D7 /* Info.plist */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		73D5B300254F0A9000DBC78F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				737D419A253C7D17001823D7 /* EditBackgroundColorViewController.swift */,
+				73D5B2F5254EBA4F00DBC78F /* ShowColorViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		73D5B302254F0AA600DBC78F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				73D5B2F8254EBA7400DBC78F /* Color.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		73D5B305254F0AD000DBC78F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				737D419F253C7D18001823D7 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,7 +336,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9T23CDVWRT;
-				INFOPLIST_FILE = "Home work_2.2/Info.plist";
+				INFOPLIST_FILE = "Home work_2.2/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +355,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9T23CDVWRT;
-				INFOPLIST_FILE = "Home work_2.2/Info.plist";
+				INFOPLIST_FILE = "Home work_2.2/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -37,7 +37,6 @@ class EditBackgroundColorViewController: UIViewController {
 		setSliderPosition()
 		setColorValueInLabel()
 		setBackgroundViewColor()
-		print(color)
 	}
 	
 	@IBAction func changeViewColor(sender: UISlider) {
